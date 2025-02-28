@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+  
+}
+
+.links {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icons-items {
+
+    cursor: pointer;
+    position: relative;
+}
+
+.icons-bages {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 12px; */
+    left: 14px;
+    top: -2px;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+   background: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffffff;
+    border-radius: 50%;
+}
+.sideBarItems {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.sideBarIcons {
+    margin-right: 12px;
+}
+.sideBarFriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sideBarFriImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.share-option-Text{
+    font-size:14px;
+    font-weight: 600;
+}
+.sharBtn{
+    border: 1px solid white;
+    padding: 7px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.likeIcons{
+    width: 24px;
+    height: 24px;
+    margin-right:5px ;
+    cursor: pointer;
+}
+.rightbarFollowing1 img{
+    height: 100px;
+    width:  100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.rightbarInfo{
+    margin-bottom: 10px;
+}
+.rightbarKey{
+    font-weight: 600;
+    margin-right:15px ;
+  
+
+}
+.rightbarValue{
+    font-weight: 200;
+}
+.rightbarFollowing1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
